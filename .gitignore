@@ -41,3 +41,4 @@ publish
 build/buildinfo.properties
 build/config/buildinfo.properties
 static/
+venv/

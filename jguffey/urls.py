@@ -25,4 +25,5 @@ urlpatterns = patterns('',
 urlpatterns += patterns('jsite.views',
 	url(r'^$', 'index'),
 	url(r'^about/$', 'about'),
+	url(r'^post/$', 'post'),
 )

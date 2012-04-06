@@ -2,14 +2,15 @@ html{background:#01c4e7;}html body{font-family:'Rokkitt',serif;color:#ffffff;fon
 html body #container header .mark p{margin:0;padding:0;height:38px;font-size:14px;display:table-cell;vertical-align:bottom;}
 html body #container header nav{margin:0;padding:0;float:right;}html body #container header nav ul{margin:0;padding:0;list-style:none;}html body #container header nav ul li{margin:0;padding:0 5px;list-style:none;float:left;}html body #container header nav ul li a{display:block;padding:0 5px;height:38px;display:table-cell;vertical-align:bottom;font-size:18px;}
 html body #container #main{clear:both;margin:0 auto;width:960px;}html body #container #main.posts{}html body #container #main.posts h2{color:#0193ad;display:block;text-align:center;font-size:24px;line-height:24px;}
-html body #container #main.posts ul{margin:0;padding:0;list-style:none;}html body #container #main.posts ul li{margin:0;padding:0;list-style:none;text-align:center;}html body #container #main.posts ul li a{display:block;text-align:center;font-size:24px;}
+html body #container #main.posts ul{margin:0;padding:0;list-style:none;}html body #container #main.posts ul li{margin:0;padding:0;list-style:none;text-align:center;}html body #container #main.posts ul li a{text-align:center;font-size:24px;}
 html body #container #main.about h2{margin:0 0 100px;z-index:1;position:relative;}
 html body #container #main.about .content{z-index:1;position:relative;}
 html body #container #main.about p.exerpt{font-size:24px;line-height:30px;}
 html body #container #main.about img.me{position:fixed;top:20px;right:-40px;z-index:0;}
-html body #container #main h2{font-size:70px;line-height:70px;text-align:center;margin:0 0 120px;}
+html body #container #main h2{font-size:70px;line-height:70px;text-align:center;margin:0 0 100px;}
 html body #container #main .meta{padding:10px 0 0;}html body #container #main .meta p{text-align:right;margin:0 40px 20px 0;}
 html body #container #main .content p{margin:0 0 40px;font-size:24px;line-height:30px;}html body #container #main .content p.exerpt{color:#0193ad;font-size:30px;line-height:34px;}
-html body #container footer{z-index:1;position:relative;padding:150px 0 50px;color:#0193ad;font-size:14px;}html body #container footer p{text-align:center;}
+html body #container footer{z-index:1;position:relative;padding:150px 0 50px;color:#0193ad;font-size:14px;}html body #container footer a{color:#0193ad;}
+html body #container footer p{text-align:center;}
 a{text-decoration:none;color:#ffffff;}a:visited{color:#ffffff;}
 a:hover{text-decoration:underline;}

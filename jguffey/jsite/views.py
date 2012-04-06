@@ -20,6 +20,9 @@ from django.views.decorators.csrf import csrf_exempt
 def index(request):
 	return render_to_response("jsite/index.html", {}, context_instance=RequestContext(request))
 	
-# Create your views here.
 def about(request):
 	return render_to_response("jsite/about.html", {}, context_instance=RequestContext(request))
+
+def post(request):
+	return render_to_response("jsite/post.html", {}, context_instance=RequestContext(request))
+

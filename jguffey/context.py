@@ -1,6 +1,8 @@
 from django.template import RequestContext, Context
 from django.contrib.sites.models import Site
 
+import datetime
+
 def getCurrUrl(request):
 	try:
 		return request.path
@@ -12,4 +14,5 @@ def getCurrUrl(request):
 #use {{copyright}} in any template now.
 def context(request):
 	current_site = Site.objects.get_current()
-	return {'redirect':getCurrUrl(request), 'colors': ["red", "blue", "purp", "brn", "gol", "grn",], 'url': current_site.domain }
+	now = datetime.datetime.now()
+	return {'redirect':getCurrUrl(request), 'url': current_site.domain, 'year': "%d" % now.year }

@@ -64,6 +64,10 @@ STATIC_ROOT = os.path.join(CURR_ROOT, 'static')
 # Example: "http://media.lawrence.com/static/"
 STATIC_URL = '/static/'
 
+# TINY MCE
+TINYMCE_JS_URL = STATIC_URL + 'js/jscripts/tiny_mce/tiny_mce.js'
+TINYMCE_JS_ROOT =STATIC_URL + 'js/jscripts/tiny_mce'
+
 # URL prefix for admin static files -- CSS, JavaScript and images.
 # Make sure to use a trailing slash.
 # Examples: "http://foo.com/static/admin/", "/static/admin/".
@@ -124,6 +128,8 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 		'south',
+		'jsite',
+		'tinymce',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (

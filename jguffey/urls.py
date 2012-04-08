@@ -26,4 +26,6 @@ urlpatterns += patterns('jsite.views',
 	url(r'^$', 'index'),
 	url(r'^about/$', 'about'),
 	url(r'^post/$', 'post'),
+	url(r'^tinymce/', include('tinymce.urls')),
+	url(r'^post/(.+)/$', 'post'),
 )

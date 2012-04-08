@@ -43,3 +43,4 @@ build/config/buildinfo.properties
 static/
 venv/
 jguffey/db/
+jguffey/jsite/migrations/*

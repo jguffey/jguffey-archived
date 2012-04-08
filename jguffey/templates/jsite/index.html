@@ -5,7 +5,13 @@
 <div id="main" class="posts">
 	<h2>Articles</h2>
 	<ul>
-		<li><a href="/post">The Post-PC World</a></li>
+		{% if posts.count %}
+			{% for post in posts %}
+				<li><a href="/post/{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+		{% else %}
+		<li>No Posts Yet</li>
+		{% endif %}
 	</ul>
 </div><!-- /#main -->
 {% endblock %}

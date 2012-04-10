@@ -3,9 +3,9 @@
 
 {% block content %}
 <div id="main" class="post">
-	<div class="postwrapper container_16">
+	<div class="postwrapper">
 		<h2>{{ post.title }}</h2>
-		<div class="meta grid_5">
+		<div class="meta">
 			<p>{{ post.postdate|date:"b jS, Y" }}</p>
 			
 			{% if older and newer %}
@@ -22,7 +22,7 @@
 			
 			<p><a href="#">share on twitter</a></p>
 		</div>
-		<div class="content grid_11">
+		<div class="content">
 			{% autoescape off %}
 				<p class="exerpt">{{ post.exerpt }}</p>
 				{{ post.content }}

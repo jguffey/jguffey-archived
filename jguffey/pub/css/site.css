@@ -13,9 +13,10 @@ html body #container #main h2{font-size:70px;line-height:70px;text-align:center;
 html body #container #main .meta{padding:10px 0 0;}html body #container #main .meta p{text-align:right;margin:0 40px 20px 0;}
 html body #container #main .content p{margin:0 0 40px;font-size:24px;line-height:30px;}html body #container #main .content p a{padding:0;}
 html body #container #main .content p.exerpt{color:#0193ad;font-size:30px;line-height:34px;}
-html body #container footer{z-index:1;position:relative;padding:150px 0 50px;color:#0193ad;font-size:14px;}html body #container footer a{color:#0193ad;}html body #container footer a:hover,html body #container footer a:hover:visited{color:#febb83;}
+html body #container footer{clear:both;z-index:1;position:relative;padding:150px 0 50px;color:#0193ad;font-size:14px;}html body #container footer a{color:#0193ad;}html body #container footer a:hover,html body #container footer a:hover:visited{color:#febb83;}
 html body #container footer p{text-align:center;}
 a{text-decoration:none;color:#b1e3f2;}a:visited{color:#b1e3f2;}
 a:hover,a:visited:hover{color:#febb83;}
 ::-moz-selection{background:#e76901;color:#ffffff;text-shadow:none;}
 ::selection{background:#e76901;color:#ffffff;text-shadow:none;}
+@media only screen and (max-width: 930px){}@media only screen and (max-width: 768px){}@media only screen and (max-width: 600px){}@media only screen and (max-width: 480px){}@media only screen and (max-width: 320px){}

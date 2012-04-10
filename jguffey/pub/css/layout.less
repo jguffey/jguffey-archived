@@ -1,0 +1,49 @@
+@import 'grid.less';
+
+@column-width: 50;
+@gutter-width: 10;
+@columns: 16;
+
+
+
+.postwrapper{
+	width: 960px;
+	.meta{
+		.column(5);
+	}
+	.content{
+		.column(11);
+	}
+}
+
+
+@media only screen and (max-width: 930px) {
+	/* below 930, above 768 */
+	.postwrapper, html body #container header, html body #container #main{ width: 720px; }
+	.postwrapper .meta{ .column(3); }
+	.postwrapper .content{ .column(9); }
+}
+@media only screen and (max-width: 768px) {
+	/* below 768, above 600 */
+	.postwrapper, html body #container header, html body #container #main{ width: 600px; }
+	.postwrapper .meta{ .column(3); }
+	.postwrapper .content{ .column(7); }
+}
+@media only screen and (max-width: 600px) {
+	/* below 600, above 480 */
+	.postwrapper, html body #container header, html body #container #main{ width: 480px; }
+	.postwrapper .meta{ .column(2); }
+	.postwrapper .content{ .column(4); }
+}
+@media only screen and (max-width: 480px) {
+	/* below 480, above 320 */
+	.postwrapper, html body #container header, html body #container #main{ width: 320px; }
+	.postwrapper .meta{ .column(5); }
+	.postwrapper .content{ .column(5); }
+}
+@media only screen and (max-width: 320px) {
+	/*smallest*/
+	.postwrapper, html body #container header, html body #container #main{ width: 100%; }
+	.postwrapper .meta{ width: 100%; }
+	.postwrapper .content{ width: 100%; }
+}

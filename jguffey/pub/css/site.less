@@ -17,6 +17,14 @@ html{
 				margin: 0 auto;
 				padding: 30px 0 140px;
 				width: 960px;
+				
+				transition-property: background-color, padding, width;
+				transition-duration: 0.25s, 0.25s, 0.25s;
+				transition-timing-function: ease-out, ease-out, ease-out;
+
+				-webkit-transition-property: background-color, padding, width;
+				-webkit-transition-duration: 0.25s, 0.25s, 0.25s;
+				-webkit-transition-timing-function: ease-out, ease-out, ease-out;
 				a{
 					color: @text;
 				}
@@ -176,19 +184,28 @@ a{
 ::selection { background: @accent; color: @text; text-shadow: none; }
 
 
-@media only screen and (max-width: 930px) {
-	/* below 930, above 768 */
-	
-}
-@media only screen and (max-width: 768px) {
-	/* below 768, above 600 */
-}
-@media only screen and (max-width: 600px) {
-	/* below 600, above 480 */
-}
 @media only screen and (max-width: 480px) {
 	/* below 480, above 320 */
+	header{ background: rgba(0,0,0,0.1); }
+	
+	html body #container header nav ul li{
+		a{
+			display: block;
+			text-align: left;
+			text-indent: -9999px;
+			background: url('static/img/icons.png') no-repeat scroll top left;
+			width: 25px;
+			height: 25px;
+			padding: 0;
+		}
+		&.github a{ 	background: url('/static/img/icons.png') no-repeat scroll 0 0; }
+		&.twitter a{ background: url('/static/img/icons.png') no-repeat scroll 0 -29px; }
+		&.about a{ 	background: url('/static/img/icons.png') no-repeat scroll 0 -60px; }
+		&.mail a{  	background: url('/static/img/icons.png') no-repeat scroll 0 -88px; }
+	}
+	
 }
 @media only screen and (max-width: 320px) {
 	/*smallest*/
+	header{ background: rgba(0,0,0,0.1); }
 }

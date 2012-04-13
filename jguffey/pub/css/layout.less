@@ -17,8 +17,8 @@
 }
 
 
-@media only screen and (max-width: 930px) {
-	/* below 930, above 768 */
+@media only screen and (max-width: 960px) {
+	/* below 960, above 768 */
 	.postwrapper, html body #container header, html body #container #main{ width: 720px; }
 	.postwrapper .meta{ .column(3); }
 	.postwrapper .content{ .column(9); }
@@ -28,22 +28,37 @@
 	.postwrapper, html body #container header, html body #container #main{ width: 600px; }
 	.postwrapper .meta{ .column(3); }
 	.postwrapper .content{ .column(7); }
+	
+	html body #container header{ 
+		width: 90%; 
+		padding: 10px 5% 50px; 
+		margin: 0 auto 100px;
+	}
+	
+	html body #container #main .meta { padding: 17px 0 0; p {margin: 0 0 3px 0;} }
+	html body #container #main .content{ padding: 10px 0 0; }
 }
 @media only screen and (max-width: 600px) {
 	/* below 600, above 480 */
-	.postwrapper, html body #container header, html body #container #main{ width: 480px; }
+	.postwrapper, html body #container #main{ width: 480px; }
 	.postwrapper .meta{ .column(2); }
-	.postwrapper .content{ .column(4); }
+	.postwrapper .content{ .column(6); }
+	
+	html body #container header .mark p { display: none; }
 }
 @media only screen and (max-width: 480px) {
 	/* below 480, above 320 */
-	.postwrapper, html body #container header, html body #container #main{ width: 320px; }
+	.postwrapper, html body #container #main{ width: 320px; }
 	.postwrapper .meta{ .column(5); }
 	.postwrapper .content{ .column(5); }
+	
+	html body #container header nav{
+		margin: 8px 0 0;
+	}
 }
 @media only screen and (max-width: 320px) {
 	/*smallest*/
-	.postwrapper, html body #container header, html body #container #main{ width: 100%; }
+	.postwrapper, html body #container #main{ width: 100%; }
 	.postwrapper .meta{ width: 100%; }
 	.postwrapper .content{ width: 100%; }
 }

@@ -3,12 +3,12 @@ html body #container header a:hover,html body #container header a:hover:visited{
 html body #container header .mark{overflow:hidden;float:left;}html body #container header .mark h1{margin:0 10px 0 0;padding:0;font-weight:700;font-size:38px;line-height:38px;float:left;}
 html body #container header .mark p{margin:0;padding:0;height:38px;font-size:14px;display:table-cell;vertical-align:bottom;}
 html body #container header nav{margin:0;padding:0;float:right;}html body #container header nav ul{margin:0;padding:0;list-style:none;}html body #container header nav ul li{margin:0;padding:0 5px;list-style:none;float:left;}html body #container header nav ul li a{display:block;padding:0 5px;height:38px;display:table-cell;vertical-align:bottom;font-size:18px;}
+html body #container img.me{position:fixed;bottom:0px;right:-40px;z-index:0;}
 html body #container #main{clear:both;margin:0 auto;width:960px;}html body #container #main.posts{}html body #container #main.posts h2{color:#0193ad;display:block;text-align:center;font-size:24px;line-height:24px;}
 html body #container #main.posts ul{margin:0;padding:0;list-style:none;}html body #container #main.posts ul li{margin:0;padding:0;list-style:none;text-align:center;}html body #container #main.posts ul li a{text-align:center;font-size:24px;color:#ffffff;}html body #container #main.posts ul li a:hover{color:#febb83;}
 html body #container #main.about h2{margin:0 0 100px;z-index:1;position:relative;}
 html body #container #main.about .content{z-index:1;position:relative;}
 html body #container #main.about p.exerpt{font-size:24px;line-height:30px;}
-html body #container #main.about img.me{position:fixed;bottom:0px;right:-40px;z-index:0;}
 html body #container #main h2{font-size:70px;line-height:70px;text-align:center;margin:0 0 100px;}
 html body #container #main .meta{padding:10px 0 0;}html body #container #main .meta p{text-align:right;margin:0 40px 20px 0;}
 html body #container #main .content p{margin:0 0 40px;font-size:24px;line-height:30px;}html body #container #main .content p a{padding:0;}

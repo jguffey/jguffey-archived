@@ -19,4 +19,6 @@ a{text-decoration:none;color:#b1e3f2;}a:visited{color:#b1e3f2;}
 a:hover,a:visited:hover{color:#febb83;}
 ::-moz-selection{background:#ff7e1a;color:#ffffff;text-shadow:none;}
 ::selection{background:#ff7e1a;color:#ffffff;text-shadow:none;}
+small{opacity:0.8;-moz-opacity:0.8;filter:alpha(opacity=80);font-style:italic;}
+.gist{font-size:75%;}
 @media only screen and (max-width: 480px){header{background:rgba(0, 0, 0, 0.1);} html body #container header nav ul li a{display:block;text-align:left;text-indent:-9999px;background:url('static/img/icons.png') no-repeat scroll top left;width:25px;height:25px;padding:0;} html body #container header nav ul li.github a{background:url('/static/img/icons.png') no-repeat scroll 0 0;} html body #container header nav ul li.twitter a{background:url('/static/img/icons.png') no-repeat scroll 0 -29px;} html body #container header nav ul li.about a{background:url('/static/img/icons.png') no-repeat scroll 0 -60px;} html body #container header nav ul li.mail a{background:url('/static/img/icons.png') no-repeat scroll 0 -88px;}}@media only screen and (max-width: 320px){header{background:rgba(0, 0, 0, 0.1);}}

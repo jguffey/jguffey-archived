@@ -3,6 +3,7 @@
 @accent2 : #B1E3F2;
 @text: #fff;
 @accent: #E76901;
+@selection: #FF7E1A;
 
 html{
 	background: @blu;
@@ -180,8 +181,8 @@ a{
 		color: lighten(@accent, 30%);
 	}
 }
-::-moz-selection { background: @accent; color: @text; text-shadow: none; }
-::selection { background: @accent; color: @text; text-shadow: none; }
+::-moz-selection { background: @selection; color: @text; text-shadow: none; }
+::selection { background: @selection; color: @text; text-shadow: none; }
 
 
 @media only screen and (max-width: 480px) {

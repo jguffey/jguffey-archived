@@ -21,8 +21,7 @@
 			{% if newer and not older %}
 				<p><a href="/post/{{newer.url}}" alt="{{newer.title}}">newer</a></p>
 			{% endif %}
-			
-			<!-- <p><a href="#">share on twitter</a></p> -->
+			<p><a href="https://twitter.com/intent/tweet?url={{ url|urlencode:"" }}%2Fpost%2F{{ post.url|urlencode:"" }}&text={{post.title}}%20via%20%40jguffey">share on twitter</a></p>
 		</div>
 		<div class="content">
 			{% autoescape off %}

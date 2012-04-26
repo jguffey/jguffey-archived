@@ -5,7 +5,7 @@
 @columns: 16;
 
 
-
+.smallonly{ display: none; }
 .postwrapper{
 	width: 960px;
 	.meta{
@@ -53,6 +53,10 @@
 	.postwrapper .comments{ .push(2); }
 	
 	html body #container header .mark p { display: none; }
+	
+	.smallonly{ display: block; }
+	html body.about{ background: none; }
+	
 }
 @media only screen and (max-width: 480px) {
 	/* below 480, above 320 */

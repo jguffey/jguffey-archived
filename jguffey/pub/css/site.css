@@ -1,5 +1,5 @@
 html{background:#01c4e7;}html body{font-family:'Rokkitt',serif;color:#ffffff;font-size:18px;}html body.about{background:transparent url('/static/img/me.png') no-repeat fixed 100% 100%;background-size:auto 95%;}
-html body img.me{position:fixed;bottom:0px;right:-40px;z-index:0;-webkit-transform:translatez(-1);z-index:3;}
+html body img.me{position:fixed;bottom:0px;right:-40px;z-index:0;-webkit-transform:translatez(-1);z-index:0;}
 html body #container{z-index:2;position:relative;}html body #container header{z-index:1;margin:0 auto;padding:30px 0 140px;width:960px;transition-property:background-color,padding,width;transition-duration:0.25s, 0.25s, 0.25s;transition-timing-function:ease-out,ease-out,ease-out;-webkit-transition-property:background-color,padding,width;-webkit-transition-duration:0.25s, 0.25s, 0.25s;-webkit-transition-timing-function:ease-out,ease-out,ease-out;}html body #container header a{color:#ffffff;}
 html body #container header a:hover,html body #container header a:hover:visited{color:#febb83;}
 html body #container header .mark{overflow:hidden;float:left;}html body #container header .mark h1{margin:0 10px 0 0;padding:0;font-weight:700;font-size:38px;line-height:38px;float:left;}

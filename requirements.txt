@@ -4,3 +4,4 @@ distribute==0.6.24
 psycopg2==2.4.5
 gunicorn==0.14.2
 wsgiref==0.1.2
+newrelic=2.4.0.4
